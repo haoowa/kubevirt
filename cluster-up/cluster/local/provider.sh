@@ -18,7 +18,7 @@ function up() {
 
     export API_HOST_IP=$(_main_ip)
     export KUBELET_HOST=$(_main_ip)
-    export HOSTNAME_OVERRIDE=kubdev
+    #export HOSTNAME_OVERRIDE=kubdev
     export ALLOW_PRIVILEGED=1
     export ALLOW_SECURITY_CONTEXT=1
     export KUBE_DNS_DOMAIN="cluster.local"
